@@ -7,6 +7,9 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 .container{
     max-width: 100%;
     margin: auto;
@@ -51,7 +54,7 @@ header{
     color: grey;
 }
 #banner-section{
-    background-image: url("images/banner.jpg");
+    background-image: url("images/banner1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,6 +169,36 @@ header{
     border-radius: 5px;
 }
 /*============================================================================================================*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.list-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.list-container ol{
+    
+    list-style-type: none;
+}
+.list-container ol ul{
+    margin: 5px;
+    font-size: .8rem;
+}
+.list-container ol ul a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.f-h5{
+    text-align: center;
+    color: white;
+}
+.f-h5 i{
+    color: white;
+}
+/*============================================================================================================*/
 /* Small Devices (576px) */
 @media (min-width: 576px){
 
@@ -212,7 +245,7 @@ header{
 
     .btn{
         
-        left: 170px;
+        left: 200px;
     
     }
     .logo img{
@@ -222,6 +255,15 @@ header{
     .sign-in a{
         text-align: right;
         padding: 20px;
+    }
+    footer{
+        
+        text-align: left;
+    
+    }
+    
+    .list-container ol ul{
+        text-align: left;
     }
     .col-l-1 {width: 8.33%;}
     .col-l-2 {width: 16.66%;}
